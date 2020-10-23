@@ -17,7 +17,7 @@ int main()
     printf("Enter the Burst Time of the processes");
       for(i=0;i<num;i++)
         {
-          scanf("%d",Burst_Time[i]);
+          scanf("%d",&Burst_Time[i]);
         }
     printf("Process\t Burst Time\t Waiting Time\t Turn Around Time\n");
     for(i=0;i<num;i++)
